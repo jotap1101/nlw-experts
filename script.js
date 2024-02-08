@@ -12,94 +12,94 @@
 // Array de objetos contendo perguntas, respostas e a resposta correta
 const perguntas = [
     {
-        pergunta: "Qual é a função do operador '===' em JavaScript?",
+        pergunta: "Quem é o verdadeiro Gossip Girl?",
         respostas: [
-            "A) Comparação estrita de igualdade",
-            "B) Atribuição",
-            "C) Comparação solta de igualdade"
+            "A) Dan Humphrey",
+            "B) Blair Waldorf",
+            "C) Serena van der Woodsen"
         ],
         correta: 0
     },
     {
-        pergunta: "O que o método 'querySelector()' faz em JavaScript?",
+        pergunta: "Qual personagem começou o relacionamento com um professor da faculdade?",
         respostas: [
-            "A) Seleciona o primeiro elemento do documento que corresponde a um seletor específico",
-            "B) Modifica o conteúdo de um elemento HTML",
-            "C) Cria um novo elemento HTML"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "O que é um array em JavaScript?",
-        respostas: [
-            "A) Uma variável que armazena uma única peça de dados",
-            "B) Um objeto que armazena coleções de dados",
-            "C) Um método para iterar sobre objetos em JavaScript"
+            "A) Serena van der Woodsen",
+            "B) Blair Waldorf",
+            "C) Jenny Humphrey"
         ],
         correta: 1
     },
     {
-        pergunta: "Como você declara uma variável em JavaScript?",
+        pergunta: "Qual é o sobrenome completo de Blair?",
         respostas: [
-            "A) let myVar = 5;",
-            "B) const myVar = 5;",
-            "C) var myVar = 5;"
+            "A) Blair Vanderbilt",
+            "B) Blair Bass",
+            "C) Blair Waldorf"
         ],
         correta: 2
     },
     {
-        pergunta: "Qual é a sintaxe correta para um comentário de linha em JavaScript?",
+        pergunta: "Qual é o verdadeiro nome de Chuck Bass?",
         respostas: [
-            "A) // Este é um comentário de linha",
-            "B) <!-- Este é um comentário de linha -->",
-            "C) /* Este é um comentário de linha */"
+            "A) Charles Bass",
+            "B) Chuck Archibald",
+            "C) Chuck Vanderbilt"
         ],
         correta: 0
     },
     {
-        pergunta: "O que o método 'addEventListener()' faz em JavaScript?",
+        pergunta: "Qual o motivo pelo qual Blair perde a coroa como rainha do baile de formatura?",
         respostas: [
-            "A) Adiciona um evento a um elemento HTML",
-            "B) Remove um evento de um elemento HTML",
-            "C) Modifica o estilo de um elemento HTML"
+            "A) Ela é desqualificada por trapaça",
+            "B) Ela voluntariamente renuncia ao título",
+            "C) Ela é substituída por Jenny Humphrey"
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é o verdadeiro nome de Lily van der Woodsen?",
+        respostas: [
+            "A) Lily Archibald",
+            "B) Lily Humphrey",
+            "C) Lily Rhodes"
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Quem é o pai biológico de Chuck Bass?",
+        respostas: [
+            "A) William van der Woodsen",
+            "B) Bart Bass",
+            "C) Rufus Humphrey"
         ],
         correta: 0
     },
     {
-        pergunta: "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
+        pergunta: "Qual personagem finge ser Gossip Girl para proteger o verdadeiro?",
         respostas: [
-            "A) 'null' é um valor atribuído explicitamente para indicar a ausência de valor, enquanto 'undefined' é o valor padrão atribuído a uma variável não inicializada.",
-            "B) 'null' indica que uma variável está vazia, enquanto 'undefined' indica que uma variável não existe.",
-            "C) 'null' e 'undefined' são usados ​​intercambiavelmente em JavaScript."
+            "A) Serena van der Woodsen",
+            "B) Dan Humphrey",
+            "C) Nate Archibald"
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é o apelido dado ao grupo de Blair, Serena, Nate, Chuck e Jenny?",
+        respostas: [
+            "A) Upper East Siders",
+            "B) Manhattan Elite",
+            "C) Gossip Group"
         ],
         correta: 0
     },
     {
-        pergunta: "O que o método 'forEach()' faz em um array JavaScript?",
+        pergunta: "Quem é o último a se tornar um membro oficial do grupo?",
         respostas: [
-            "A) Executa uma função uma vez para cada elemento do array",
-            "B) Retorna o primeiro elemento do array",
-            "C) Remove o último elemento do array"
+            "A) Serena van der Woodsen",
+            "B) Chuck Bass",
+            "C) Dan Humphrey"
         ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é o operador lógico 'OU' em JavaScript?",
-        respostas: [
-            "A) ||",
-            "B) &&",
-            "C) !"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é a função do método 'parseInt()' em JavaScript?",
-        respostas: [
-            "A) Converte uma string em um número inteiro",
-            "B) Retorna a parte fracionária de um número",
-            "C) Retorna um número arredondado para o número inteiro mais próximo"
-        ],
-        correta: 0
+        correta: 2
     }
 ];
 
